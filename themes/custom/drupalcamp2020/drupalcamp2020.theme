@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming.
+ */
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function drupalcamp2020_preprocess_page(&$variables) {
+  // Node pages.
+  if (isset($variables['node']) && $variables['node'] instanceof Node) {
+    $node = $variables['node'];
+    $node_bundles = ['article'];
+    if (in_array($node->bundle(), $node_bundles, TRUE)) {
+      unset($variables['page']['content']['drupalcamp2020_page_title']);
+    }
+  }
+}
+
+/**
+ * Implements hook_theme_suggestions_field_alter().
+ */
+function drupalcamp2020_theme_suggestions_field_alter(array &$suggestions, array $variables) {
+  $template_name = [
+    'field',
+    $variables['element']['#entity_type'],
+    $variables['element']['#field_name'],
+    $variables['element']['#bundle'],
+    $variables['element']['#view_mode'],
+  ];
+  $suggestions[] = implode('__', $template_name);
+}

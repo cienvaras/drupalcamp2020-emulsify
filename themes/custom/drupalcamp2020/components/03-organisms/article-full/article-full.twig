@@ -1,0 +1,19 @@
+{% set article_full__base_class = 'article-full' %}
+
+<article {{ bem(article_full__base_class) }}>
+  {% include '@atoms/text/headings/_heading.twig' with {
+    heading_level: 1,
+    heading: article_full__title,
+  } %}
+  <p {{ bem('date', [], article_full__base_class) }}>
+    {{ article_full__date }}
+  </p>
+  {% block article_full__carousel %}
+    {% include '@molecules/carousel/carousel.twig' with {
+      carousel__images: article_full__images
+    } %}
+  {% endblock %}
+  <div {{ bem('body', [], article_full__base_class, 'text-long') }}>
+    {{ article_full__body }}
+  </div>
+</article>

@@ -1,0 +1,24 @@
+.article-teaser {
+  background-color: clr(background-section);
+  padding: 2rem;
+  display: flex;
+
+  &__image {
+    margin-right: 1rem;
+    flex: 0 0 150px;
+  }
+}
+
+// Variants
+.article-teaser--highlighted {
+  background-color: clr(primary);
+  color: clr(text-inverse);
+
+  h2 {
+    color: clr(text-inverse);
+  }
+
+  .article-teaser__image {
+    flex: 0 0 250px;
+  }
+}

@@ -1,0 +1,36 @@
+article_full__title: A test article
+article_full__date: November 6, 2020
+article_full__images:
+  - src: https://loremflickr.com/408/408/dog?random=1
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=2
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=3
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=4
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=5
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=6
+    alt: Image alt text
+article_full__body: >
+  <p>
+    Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec id elit non mi porta
+    gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
+    ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  </p>
+  <p>
+    Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit.
+    Donec id elit non mi porta gravida at eget metus. Morbi leo risus, porta ac consectetur ac,
+    vestibulum at eros.
+  </p>
+  <p>
+    Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor
+    fringilla. Nullam id dolor id nibh ultricies vehicula ut id elit. Etiam porta sem malesuada magna
+    mollis euismod. Maecenas sed diam eget risus varius blandit sit amet non magna.
+  </p>
+  <p>
+    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa
+    justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus
+    porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+  </p>

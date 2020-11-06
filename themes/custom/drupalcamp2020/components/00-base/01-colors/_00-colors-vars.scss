@@ -1,0 +1,24 @@
+// Color variables - it is better to use the colors in
+// components/00-base/01-colors/_01-colors-used.scss rather than
+// these colors directly.
+
+// Grayscale
+$white: white;
+$near-white: #f2f2f2;
+$gray-lightest: #e5e5e5;
+$gray-lighter: #ccc;
+$gray-light: #888;
+$gray: #666;
+$gray-dark: #4c4c4c;
+$gray-darker: #333;
+$black: black;
+
+// Status
+$yellow-light: #f9fb93;
+$red-light: #fbe3e4;
+$green-light: #cfefc2;
+
+// Project
+$blue-dark: #0a1b45;
+$blue: #163278;
+$orange: #c64e16

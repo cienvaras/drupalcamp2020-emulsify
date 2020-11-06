@@ -1,0 +1,13 @@
+carousel__images:
+  - src: https://loremflickr.com/408/408/dog?random=1
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=2
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=3
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=4
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=5
+    alt: Image alt text
+  - src: https://loremflickr.com/408/408/dog?random=6
+    alt: Image alt text

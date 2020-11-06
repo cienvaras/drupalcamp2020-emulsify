@@ -1,0 +1,4 @@
+link_url: 'https://github.com/drupalcamp2020-ds/drupalcamp2020-design-system'
+link_content: 'This is my link text'
+link_attributes:
+  'target': '_blank'

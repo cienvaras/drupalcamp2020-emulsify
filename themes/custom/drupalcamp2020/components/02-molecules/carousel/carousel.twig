@@ -1,0 +1,31 @@
+{% set carousel__base_class = 'carousel' %}
+
+<div {{ bem(carousel__base_class) }}>
+  <ul {{ bem('images', [], carousel__base_class) }}>
+    {% block carousel__images %}
+      {% for image in carousel__images %}
+        <li>
+          {% include '@atoms/images/image/responsive-image.twig' with {
+            output_image_tag: true,
+            image_src: image.src,
+            image_alt: image.alt,
+          } %}
+        </li>
+      {% endfor %}
+    {% endblock %}
+  </ul>
+  <div {{ bem('controls', [], carousel__base_class) }}>
+    <button>
+      <span class="visually-hidden">Previous item</span>
+      {% include '@atoms/images/icons/_icon.twig' with {
+        icon_name: 'arrow-circle',
+      } %}
+    </button>
+    <button>
+      <span class="visually-hidden">Next item</span>
+      {% include '@atoms/images/icons/_icon.twig' with {
+        icon_name: 'arrow-circle',
+      } %}
+    </button>
+  </div>
+</div>

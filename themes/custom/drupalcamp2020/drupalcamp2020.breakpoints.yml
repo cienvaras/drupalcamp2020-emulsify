@@ -1,0 +1,16 @@
+# Breakpoints - change based on site need
+drupalcamp2020.small:
+  label: small
+  mediaQuery: 'all and (min-width: 25em)'
+drupalcamp2020.small-med:
+  label: small-med
+  mediaQuery: 'all and (min-width: 26em)'
+drupalcamp2020.small-large:
+  label: small-large
+  mediaQuery: 'all and (min-width: 41em)'
+drupalcamp2020.medium:
+  label: medium
+  mediaQuery: 'all and (min-width: 48em)'
+drupalcamp2020.large:
+  label: large
+  mediaQuery: 'all and (min-width: 61.25em)'

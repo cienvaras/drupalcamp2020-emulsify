@@ -1,0 +1,5 @@
+article_teaser__title: This is a test article
+article_teaser__image:
+  src: https://loremflickr.com/150/150/dog?random=1
+  alt: Image alt text
+article_teaser__date: November 5, 2020

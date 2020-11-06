@@ -1,0 +1,40 @@
+.carousel__images {
+  @include list-reset;
+
+  display: flex;
+}
+
+.carousel__controls {
+  display: flex;
+  margin-top: 2rem;
+  justify-content: center;
+
+  button {
+    background-color: transparent;
+    padding: 0;
+    border: none;
+
+    &:hover, &:focus {
+      .icon {
+        fill: clr(accent);
+      }
+    }
+
+    &:last-child {
+      .icon {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  button + button {
+    margin-left: 1rem;
+  }
+
+  .icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    fill: clr(text);
+  }
+}
